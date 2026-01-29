@@ -10,6 +10,21 @@ This project implements a comprehensive **Multimodal Fake News Detection System*
 *   **User-Friendly App**: Interactive Streamlit web application for real-time detection.
 *   **Custom Dataset Support**: Easy-to-use CSV format for training on your own datasets.
 
+## 🧠 Why Deep Learning? (vs. Traditional ML)
+
+This project generally outperforms traditional Machine Learning algorithms like KNN, Random Forest, or Decision Trees for this specific task due to the complexity of the data involved.
+
+| Feature | Traditional ML (RF, KNN) | Our Approach (BERT + ResNet) |
+| :--- | :--- | :--- |
+| **Understanding** | Checks for specific keywords | Understands meaning and context |
+| **Images** | Very poor / Requires manual feature extraction | State-of-the-art Computer Vision |
+| **Complexity** | Simple, fast to train | Complex, high accuracy, GPU accelerated |
+
+### Key Advantages:
+*   **Text (BERT)**: Understands the context, grammar, and meaning of the full sentence. It treats language like a human does, capturing sarcasm, nuance, and semantic relationships.
+*   **Images (ResNet)**: Automatically learns to identify objects, scenes, and complex patterns directly from raw pixels.
+*   **Fusion**: Our model actively learns the *relationship* between the text and image, whereas traditional methods often treat them as separate, independent features.
+
 ## 🛠️ Tech Stack
 
 *   **Language**: Python 3.8+
@@ -100,3 +115,13 @@ Contributions are welcome! Please Open an issue or submit a pull request for any
 
 ## 📜 License
 [MIT License](LICENSE)
+
+<img width="1917" height="863" alt="Screenshot 2026-01-29 183402" src="https://github.com/user-attachments/assets/15afbcba-5be5-4552-bba2-34b5961d4d53" />
+
+<img width="1906" height="865" alt="Screenshot 2026-01-29 183539" src="https://github.com/user-attachments/assets/b5836c18-a39e-41fb-8f68-d057fb8512d1" />
+
+<img width="1906" height="863" alt="Screenshot 2026-01-29 183707" src="https://github.com/user-attachments/assets/11bd118f-68ff-4f76-8a25-b3ad717a9927" />
+
+<img width="1903" height="849" alt="Screenshot 2026-01-29 183733" src="https://github.com/user-attachments/assets/e0840d79-4d91-4103-8f55-39fd6253e4d7" />
+
+
